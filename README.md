@@ -25,6 +25,6 @@ console.log(data);//hiplayfair
 
 ### 效果展示
 加密：
-![](leanote://file/getImage?fileId=56e01078d5f5284b83000002)
+![image](https://github.com/qqxufo/Playfair/screenshots/1.png)
 解密：
-![](leanote://file/getImage?fileId=56e01083d5f5284b83000003)
+![image](https://github.com/qqxufo/Playfair/screenshots/2.png)
