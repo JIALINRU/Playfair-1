@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="Playfair.js"></script>
+    <script type="text/javascript">
+        function getScret(){
+            var info = document.getElementById('info');
+            var key = document.getElementById('key').value;
+            var message = document.getElementById('message').value;
+            var data = Playfair.getSercretStr(key, message);
+            info.innerText = data;
+        }
+        function getUnScret(){
+            var info = document.getElementById('info');
+            var key = document.getElementById('key').value;
+            var message = document.getElementById('message').value;
+            var data = Playfair.getUnSercretStr(key, message);
+            info.innerText = data;
+        }
+    </script>
+</head>
+<body>
+    密钥：<input type="text" id="key">
+    字符串：<input type="text" id="message">
+    <input type="button" value="加密" onclick="getScret()">
+    <input type="button" value="解密" onclick="getUnScret()">
+    <div id="info"></div>
+</body>
+</html>
