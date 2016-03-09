@@ -25,6 +25,6 @@ console.log(data);//hiplayfair
 
 ### 效果展示
 加密：
-![image](https://github.com/qqxufo/Playfair/screenshots/1.png)
+![image](https://github.com/qqxufo/Playfair/tree/master/screenshots/1.png)
 解密：
-![image](https://github.com/qqxufo/Playfair/screenshots/2.png)
+![image](https://github.com/qqxufo/Playfair/tree/master/screenshots/2.png)
